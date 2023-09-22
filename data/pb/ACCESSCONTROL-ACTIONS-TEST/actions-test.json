@@ -14378,7 +14378,8 @@
          "leftIcon": "action:assignment",
          "rightIcon": ""
        },
-   {
+
+    {
       "id": 181219,
       "name": "Status Wise Report",
       "url": "url",
@@ -14392,7 +14393,29 @@
       "navigationURL": "report/rainmaker-ws/StatusWiseReport",
       "leftIcon": "action:assignment",
       "rightIcon": ""
-     }
+     },
+      {
+        "id": 181220,
+        "name": "WS Report",
+        "url": "/report/rainmaker-ws/StatusWiseReport/metadata/_get",
+        "displayName": "WS Status Wise Report metadata",
+        "orderNumber": 1,
+        "enabled": true,
+        "serviceCode": "WSREPORTS",
+        "code": "null",
+        "path": ""
+      },
+      {
+        "id": 181221,
+        "name": "WS Report",
+        "url": "/report/rainmaker-ws/StatusWiseReport/_get",
+        "displayName": "WS Status Wise Report metadata",
+        "orderNumber": 1,
+        "enabled": true,
+        "serviceCode": "WSREPORTS",
+        "code": "null",
+        "path": ""
+      }
 	  
 	  
   ]
