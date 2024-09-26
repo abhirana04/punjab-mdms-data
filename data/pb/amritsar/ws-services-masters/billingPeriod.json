@@ -2,24 +2,22 @@
   "tenantId": "pb.amritsar",
   "moduleName": "ws-services-masters",
   "billingPeriod": [
-    {
-     "active": true,
+     {
+      "active": true,
       "connectionType": "Metered",
       "billingCycle": "quarterly",
       "demandEndDateMillis": 2592000000,
-      "demandExpiryDate": 2592000000,
-      "taxPeriodFrom": 1648771200000,
-      "taxPeriodTo": 1656633599000,
+      "demandExpiryDate": 0,
       "demandGenerationDateMillis": 345600000
     },
     {
-     "active": true,
+      "active": true,
       "connectionType": "Non Metered",
       "billingCycle": "quarterly",
       "demandEndDateMillis": 2592000000,
       "demandExpiryDate": 2592000000,
-      "taxPeriodFrom": 1648771200000,
-      "taxPeriodTo": 1656633599000,
+      "taxPeriodFrom": 1672511400000,
+      "taxPeriodTo": 1680287399000,
       "demandGenerationDateMillis": 345600000
     }
   ]

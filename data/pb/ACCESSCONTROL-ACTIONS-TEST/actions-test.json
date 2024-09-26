@@ -4673,7 +4673,7 @@
       "displayName": "Localization Messages Upsert",
       "orderNumber": 1,
       "parentModule": "",
-      "enabled": false,
+      "enabled": true,
       "serviceCode": "core",
       "code": "null",
       "path": ""
@@ -14241,7 +14241,54 @@
       "serviceCode": "W&S",
       "code": "null",
       "path": ""
-      },	  
+    },	
+    {
+      "id": 2510,
+      "name": "DSS Dashboard Config mCollect",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/mCollect",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2511,
+      "name": "DSS Dashboard Config noc",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/noc",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+    
+    {
+      "id": 2512,
+      "name": "Search Water Bill",
+      "url": "/egov-searcher/bill-genie/billswithaddranduser/_get",
+      "displayName": "Search Water Bill",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "Searcher",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2513,
+      "name": "Bulk PDF Details",
+      "url": "/pdf-service/v1/_getBulkPdfRecordsDetails",
+      "displayName": "Bulk PDF Details",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "pdf-generator-create",
+      "code": "null",
+      "path": ""
+    },
     {
       "id": 181212,
       "name": "Online Building Plan",
@@ -14252,7 +14299,7 @@
       "enabled": true,
       "serviceCode": "UC",
       "code": "null",
-      "navigationURL": "property-tax/Propert-Tax-Notification",
+      "navigationURL": "tradelicence/enaksha",
       "path": "UC",
       "leftIcon": "image:collections-bookmark"
     },
@@ -14263,10 +14310,70 @@
         "displayName": "PT filestore id update",
         "orderNumber": 1,
         "parentModule": "",
-        "enabled": false,
+        "enabled": true,
         "serviceCode": "",
         "code": "null",
         "path": ""
+      },
+      {
+      "id": 181214,
+      "name": "PropertyTax new payments search",
+      "url": "/egov-searcher/rainmaker-pt-gissearch/searchTLApplicationsEODB/_get",
+      "parentModule": "",
+      "displayName": "Punjab customization",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "punjab-customization",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 181215,
+      "name": "Tenant config for mandatory surveyid",
+      "url": "/egov-searcher/rainmaker-pt-gissearch/GetTenantConfig/_get",
+      "parentModule": "",
+      "displayName": "Punjab customization",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "punjab-customization",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 181216,
+      "name": "HRMS employee to allow only selected roles to allocate",
+      "url": "/egov-searcher/rainmaker-pt-gissearch/GetAllowedRoles/_get",
+      "parentModule": "",
+      "displayName": "Punjab customization",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "punjab-customization",
+      "code": "null",
+      "path": ""
+   },
+    {
+      "id": 181217,
+      "name": "Digi Locker Integration",
+      "url": "/pt-services-dx/dataexchange/_searchReceipt",
+      "parentModule": "",
+      "displayName": "Digi Locker",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "pb-digilocker",
+      "code": "null",
+      "path": ""
+    },
+      {
+        "id": 181223,
+        "name": "Assessment Job",
+        "url": "/pt-calculator-v2/assessment/_jobscheduler",
+        "displayName": "PT assessment job",
+        "orderNumber": 1,
+        "enabled": true,
+        "serviceCode": "property-services",
+        "code": "null",
+        "path": ""
       }
+	  
   ]
 }

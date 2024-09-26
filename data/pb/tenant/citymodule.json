@@ -532,6 +532,9 @@
           "code": "pb.handiaya"
         },
         {
+         "code": "pb.joga"
+        },
+        {
           "code": "pb.lalru"
         },
         {
@@ -1016,6 +1019,9 @@
         },
         {
           "code": "pb.patiala"
+        },
+        {
+          "code": "pb.ludhiana" 
         }
       ]
     },
@@ -3176,46 +3182,22 @@
           "code": "pb.tapa" 
         },
         {
-          "code": "pb.moonak"   
-          
-          
-          
-          
-        }
-      ]
-    },
-{
-      "module": "WS",
-      "code": "WS",
-      "active": true,
-      "tenants": [
+          "code": "pb.moonak" 
+        },
         {
-          "code": "pb.fazilka",
-          "name": "Fazilka"
-        }
-      ]
-    },
-{
-      "module": "SW",
-      "code": "SW",
-      "tenants": [
+          
+           "code": "pb.ropar" 
+        },
         {
-          "code": "pb.fazilka",
-          "name": "Fazilka"
+           "code": "pb.handiaya"
+        },
+        {
+          "code": "pb.dhanaula"
+        },
+        {
+          "code": "pb.dirbapwssb"
         }
       ]
     }
-
-  ],
-"SW": [
-    {"module": "SW",
-      "code": "SW",
-      "tenants": [
-        {
-          "code": "pb.fazilka",
-          "name": "Fazilka"
-        }
-      ]
-}]
-
+]
 }
